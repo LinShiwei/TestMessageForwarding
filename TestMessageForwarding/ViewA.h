@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewA.h
 //  TestMessageForwarding
 //
 //  Created by Lin,Shiwei on 2017/7/27.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewA.h"
-#import "ViewB.h"
-#import "ViewSubA.h"
-@interface ViewController : UIViewController
-
+#import "define.h"
+@interface ViewA : UIView
+- (instancetype)initWithForwardingTarget:(id)target;
 
 @end
-

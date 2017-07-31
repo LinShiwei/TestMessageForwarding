@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewSubA.h
 //  TestMessageForwarding
 //
 //  Created by Lin,Shiwei on 2017/7/27.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewA.h"
-#import "ViewB.h"
-#import "ViewSubA.h"
-@interface ViewController : UIViewController
-
+@interface ViewSubA : ViewA
 
 @end
-

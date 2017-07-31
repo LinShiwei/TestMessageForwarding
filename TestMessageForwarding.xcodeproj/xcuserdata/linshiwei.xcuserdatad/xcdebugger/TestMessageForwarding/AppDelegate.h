@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  TestMessageForwarding
 //
 //  Created by Lin,Shiwei on 2017/7/27.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewA.h"
-#import "ViewB.h"
-#import "ViewSubA.h"
-@interface ViewController : UIViewController
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
