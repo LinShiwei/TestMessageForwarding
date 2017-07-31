@@ -13,15 +13,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA4391131F29E5250054D500"
-            BuildableName = "TestMessageForwarding.app"
-            BlueprintName = "TestMessageForwarding"
-            ReferencedContainer = "container:TestMessageForwarding.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -35,16 +26,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA4391131F29E5250054D500"
-            BuildableName = "TestMessageForwarding.app"
-            BlueprintName = "TestMessageForwarding"
-            ReferencedContainer = "container:TestMessageForwarding.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -54,15 +35,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA4391131F29E5250054D500"
-            BuildableName = "TestMessageForwarding.app"
-            BlueprintName = "TestMessageForwarding"
-            ReferencedContainer = "container:TestMessageForwarding.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

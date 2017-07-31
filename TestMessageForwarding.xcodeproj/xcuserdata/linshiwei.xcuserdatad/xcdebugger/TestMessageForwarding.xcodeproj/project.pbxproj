@@ -13,9 +13,6 @@
 		FA4391221F29E5250054D500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4391201F29E5250054D500 /* Main.storyboard */; };
 		FA4391241F29E5250054D500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4391231F29E5250054D500 /* Assets.xcassets */; };
 		FA4391271F29E5250054D500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4391251F29E5250054D500 /* LaunchScreen.storyboard */; };
-		FA4391301F29E5880054D500 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = FA43912F1F29E5880054D500 /* ViewA.m */; };
-		FA4391331F29E5930054D500 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4391321F29E5930054D500 /* ViewB.m */; };
-		FA4391361F2A03970054D500 /* ViewSubA.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4391351F2A03970054D500 /* ViewSubA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +26,6 @@
 		FA4391231F29E5250054D500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4391261F29E5250054D500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4391281F29E5250054D500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA43912E1F29E5880054D500 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
-		FA43912F1F29E5880054D500 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
-		FA4391311F29E5930054D500 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
-		FA4391321F29E5930054D500 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
-		FA4391341F2A03970054D500 /* ViewSubA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSubA.h; sourceTree = "<group>"; };
-		FA4391351F2A03970054D500 /* ViewSubA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSubA.m; sourceTree = "<group>"; };
-		FA4391371F2A0CC00054D500 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +67,6 @@
 				FA4391251F29E5250054D500 /* LaunchScreen.storyboard */,
 				FA4391281F29E5250054D500 /* Info.plist */,
 				FA4391171F29E5250054D500 /* Supporting Files */,
-				FA43912E1F29E5880054D500 /* ViewA.h */,
-				FA43912F1F29E5880054D500 /* ViewA.m */,
-				FA4391311F29E5930054D500 /* ViewB.h */,
-				FA4391321F29E5930054D500 /* ViewB.m */,
-				FA4391341F2A03970054D500 /* ViewSubA.h */,
-				FA4391351F2A03970054D500 /* ViewSubA.m */,
-				FA4391371F2A0CC00054D500 /* define.h */,
 			);
 			path = TestMessageForwarding;
 			sourceTree = "<group>";
@@ -170,9 +153,6 @@
 			files = (
 				FA43911F1F29E5250054D500 /* ViewController.m in Sources */,
 				FA43911C1F29E5250054D500 /* AppDelegate.m in Sources */,
-				FA4391331F29E5930054D500 /* ViewB.m in Sources */,
-				FA4391361F2A03970054D500 /* ViewSubA.m in Sources */,
-				FA4391301F29E5880054D500 /* ViewA.m in Sources */,
 				FA4391191F29E5250054D500 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +280,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linshiwei.TestMessageForwarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +292,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linshiwei.TestMessageForwarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -336,7 +314,6 @@
 				FA43912D1F29E5250054D500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

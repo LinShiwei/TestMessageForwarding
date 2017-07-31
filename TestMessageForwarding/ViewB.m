@@ -18,14 +18,14 @@
 }
 */
 //
-//+ (void)load{
-//    ClassMethodCallLog(@"load");
-//    Method m1 = class_getClassMethod([self class], @selector(initialize));
-//    Method m2 = class_getClassMethod([self class], @selector(customInitialize));
-//
-//    method_exchangeImplementations(m1, m2);
-//
-//}
++ (void)load{
+    ClassMethodCallLog(@"load");
+    Method m1 = class_getClassMethod([self class], @selector(initialize));
+    Method m2 = class_getClassMethod([self class], @selector(customInitialize));
+
+    method_exchangeImplementations(m1, m2);
+
+}
 
 + (void)initialize{
     ClassMethodCallLog(@"vb initialize");
